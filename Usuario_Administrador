@@ -16,6 +16,9 @@ module.exports = {
       type: 'string',
       unique: true
     },
+     edad: {
+      type: 'int'
+    },
     dia: {
       type: 'int',
       unique: true
