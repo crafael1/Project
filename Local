@@ -1,0 +1,38 @@
+module.exports = {
+
+    connection: 'mysql',
+  attributes: {
+    nombre: {
+      type: 'string'
+    },
+    tipo: {
+      type: 'string'
+    },
+    descripcion: {
+      type: 'string'
+     
+    },
+    Idlocal: {
+      type: 'string',
+      unique: true
+    },
+    telefono: {
+      type: 'int'
+    },
+    edadmin: {
+      type: 'int'
+    },
+    ubicacion: {
+      type: 'string'
+    },
+    preciobase: {
+      type: 'float'
+    },
+    nreseñas: {
+      type: 'int'
+    },
+    puntaje: {
+      type: 'int'
+    }
+  }
+};
